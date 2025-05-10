@@ -2,6 +2,7 @@ import "./App.css";
 import { Heading } from "./components/Heading";
 import { Oscar } from "./components/Oscar";
 import { Status } from "./components/Status";
+import { Button } from "./components/Button";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Oscar>
         <Heading>Oscar goes to Sachin Jakhar</Heading>
       </Oscar>
+      <Button handleClick={(event) => alert(event)}></Button>
     </>
   );
 }
